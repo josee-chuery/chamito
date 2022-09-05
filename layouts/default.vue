@@ -22,11 +22,14 @@
         <template #end>
             <b-navbar-item tag="div">
                 <div class="buttons">
-                    <a class="button is-primary">
+                    <a href="/cadastro" class="button is-info">
                         <strong>Cadastre-se</strong>
                     </a>
-                    <a class="button is-light">
+                    <a href="/login" class="button is-light">
                         Login
+                    </a>
+                    <a href="/carrinho" class="button is-light">
+                        Carrinho
                     </a>
                 </div>
             </b-navbar-item>

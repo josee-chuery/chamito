@@ -7,33 +7,33 @@
         </figure>
       </div>
       <div class="column is-6">
-        <article class="notification is-primary">
+        <article class="notification is-info">
          <p class="title">Chamyto 1+1</p>
         </article>
-        <article class="notification is-primary">
+        <article class="notification is-info">
          <p class="subtitle">Aquele chamito com iogurte e bolinhas de chocolate top, pra criançada ficar maluca no intervalo</p>
         </article>
       </div>
       <div class="column is-3">
-        <article class="notification is-primary">
+        <article class="notification is-info">
          <p class="title">5 bolsocoins</p>
          <p>Quantidade:</p>
         </article>
         <b-field>
          <b-numberinput v-model="number"></b-numberinput>
         </b-field>
-        <b-button type="is-primary">Adicionar ao carrinho</b-button>
+        <b-button type="is-info">Adicionar ao carrinho</b-button>
       </div>
     </div>
    <div>
-    <article class="notification is-primary">
+    <article class="notification is-info">
      <p class="subtitle">120 ml de iogurte</p>
      <p class="subtitle">56 un de bolinhas de chocolate</p>
     </article>
    </div>
    <br>
    <div>
-    <article class="notification is-primary">
+    <article class="notification is-info">
      <p class="subtitle">Comentários:</p>
      <br>
      <p class="subtitle">Clébinho: Uma delícia!</p>
@@ -47,7 +47,7 @@
         <figure class="image is-300x300">
   <img src="https://www.nestle.com.br/sites/g/files/pydnoa436/files/2021-10/chamyto-1-1.png">
         </figure>
-        <article class="notification is-primary">
+        <article class="notification is-info">
           <p class="title">Chamyto 1+1</p>
           <p class="subtitle">5 bolsocoins</p>
           <router-link :to="{ path: '/chamyto1' }">Mais informações</router-link>

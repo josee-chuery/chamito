@@ -34,26 +34,26 @@
           <figure class="image is-300x300">
     <img src="https://www.nestle.com.br/sites/g/files/pydnoa436/files/2021-10/chamyto-1-1.png">
           </figure>
-          <article class="notification is-primary">
+          <article class="notification is-info">
             <p class="title">Chamyto 1+1</p>
             <p class="subtitle">5 bolsocoins</p>
-            <router-link :to="{ path: '/chamyto1' }">Chamyto 1+1</router-link>
+            <router-link :to="{ path: '/chamyto1' }">Comprar</router-link>
           </article>
           <figure class="image is-300x300">
     <img src="https://www.nestle.com.br/sites/g/files/pydnoa436/files/2021-10/chamyto-1-1.png">
           </figure>
-          <article class="notification is-primary">
+          <article class="notification is-info">
             <p class="title">Chamyto 1+1</p>
             <p class="subtitle">5 bolsocoins</p>
-            <router-link :to="{ path: '/chamyto1' }">Chamyto 1+1</router-link>
+            <router-link :to="{ path: '/chamyto1' }">Comprar</router-link>
           </article>
           <figure class="image is-300x300">
     <img src="https://www.nestle.com.br/sites/g/files/pydnoa436/files/2021-10/chamyto-1-1.png">
           </figure>
-          <article class="notification is-primary">
+          <article class="notification is-info">
             <p class="title">Chamyto 1+1</p>
             <p class="subtitle">5 bolsocoins</p>
-            <router-link :to="{ path: '/chamyto1' }">Chamyto 1+1</router-link>
+            <router-link :to="{ path: '/chamyto1' }">Comprar</router-link>
           </article>
         </div>
         <div class="column">
@@ -63,7 +63,7 @@
           <article class="notification is-info">
             <p class="title">Iogurte 100g</p>
             <p class="subtitle">10 bolsocions</p>
-            <router-link :to="{ path: '/chamyto1' }">Chamyto 1+1</router-link>
+            <router-link :to="{ path: '/chamyto1' }">Comprar</router-link>
           </article>
           <figure class="image is-300x300">
     <img src="https://www.nestle.com.br/sites/g/files/pydnoa436/files/2021-10/iogurte-100g.png">
@@ -71,7 +71,7 @@
           <article class="notification is-info">
             <p class="title">Iogurte 100g</p>
             <p class="subtitle">10 bolsocions</p>
-            <router-link :to="{ path: '/chamyto1' }">Chamyto 1+1</router-link>
+            <router-link :to="{ path: '/chamyto1' }">Comprar</router-link>
           </article>
           <figure class="image is-300x300">
     <img src="https://www.nestle.com.br/sites/g/files/pydnoa436/files/2021-10/iogurte-100g.png">
@@ -79,7 +79,7 @@
           <article class="notification is-info">
             <p class="title">Iogurte 100g</p>
             <p class="subtitle">10 bolsocions</p>
-            <router-link :to="{ path: '/chamyto1' }">Chamyto 1+1</router-link>
+            <router-link :to="{ path: '/chamyto1' }">Comprar</router-link>
           </article>
         </div>
         <div class="column">
@@ -89,7 +89,7 @@
           <article class="notification is-info">
             <p class="title">Leite fermentado 450g</p>
             <p class="subtitle">12 bolsocoins</p>
-            <router-link :to="{ path: '/imagens' }">Exemplo de link</router-link>
+            <router-link :to="{ path: '/imagens' }">Comprar</router-link>
           </article>
           <figure class="image is-300x300">
     <img src="https://www.nestle.com.br/sites/g/files/pydnoa436/files/2021-10/leite-fermentado-450.png">
@@ -97,7 +97,7 @@
           <article class="notification is-info">
             <p class="title">Leite fermentado 450g</p>
             <p class="subtitle">12 bolsocoins</p>
-            <router-link :to="{ path: '/imagens' }">Exemplo de link</router-link>
+            <router-link :to="{ path: '/imagens' }">Comprar</router-link>
           </article>
           <figure class="image is-300x300">
     <img src="https://www.nestle.com.br/sites/g/files/pydnoa436/files/2021-10/leite-fermentado-450.png">
@@ -105,7 +105,7 @@
           <article class="notification is-info">
             <p class="title">Leite fermentado 450g</p>
             <p class="subtitle">12 bolsocoins</p>
-            <router-link :to="{ path: '/imagens' }">Exemplo de link</router-link>
+            <router-link :to="{ path: '/imagens' }">Comprar</router-link>
           </article>
         </div>
       </div>
