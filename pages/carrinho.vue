@@ -44,8 +44,9 @@
           </tr>
         </tbody>
       </table>
-      <h1 class="title">Preço Total: R$ 6,00</h1>
-      <b-button type="is-info">Finalizar Compra</b-button>
     </div>
+    <h1 class="title">Preço Total: R$ 6,00</h1>
+    <b-button type="is-info">Finalizar Compra</b-button>
+    <b-button type="is-info">Contunuar Comprando</b-button>
   </section>
 </template>
