@@ -14,29 +14,9 @@
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 Home
             </b-navbar-item>
-            <b-navbar-item tag="router-link" :to="{ path: '/contato' }">
-                Contato
+            <b-navbar-item tag="router-link" :to="{ path: '/produtos' }">
+                Lista de produtos
             </b-navbar-item>          
-            <b-navbar-item tag="router-link" :to="{ path: '/imagens' }">
-                Imagens
-            </b-navbar-item>     
-            <b-navbar-dropdown label="Layouts">
-                <b-navbar-item tag="router-link" :to="{ path: '/layout-hero' }">
-                    Hero
-                </b-navbar-item>
-                <b-navbar-item tag="router-link" :to="{ path: '/layout-section' }">
-                    Section
-                </b-navbar-item>
-                <b-navbar-item tag="router-link" :to="{ path: '/layout-media-object' }">
-                    Media Object
-                </b-navbar-item>
-                <b-navbar-item tag="router-link" :to="{ path: '/elements-block' }">
-                    Blocos
-                </b-navbar-item>                                
-            </b-navbar-dropdown>                   
-            <b-navbar-item tag="router-link" :to="{ path: '/tabs' }">
-                Tabs
-            </b-navbar-item>
         </template>
 
         <template #end>
@@ -58,8 +38,8 @@
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
-          <strong>Nuxt exemplo</strong> by Robson Luz. 
-          <a target="_blank" href="https://fae.edu">FAE Centro Universitário</a>
+          <strong>Nuxt exemplo</strong> by José Elias. 
+          <a target="_blank" href="https://eprevs.com">FAE Centro Universitário</a>
         </p>
       </div>
     </footer>      

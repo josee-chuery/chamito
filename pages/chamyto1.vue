@@ -1,19 +1,47 @@
 <template>
-  <div>
-    
-    <!-- carousel com imagens -->
-    <b-carousel>
-      <b-carousel-item>
-        <b-image class="image" src="https://mir-s3-cdn-cf.behance.net/projects/404/b11cea51769163.Y3JvcCw2NzAsNTI0LDI5LDExMQ.png"></b-image>
-      </b-carousel-item>
-      <b-carousel-item>
-        <b-image class="image" src="https://mir-s3-cdn-cf.behance.net/projects/404/7f25d271954537.Y3JvcCwyODc2LDIyNTAsNTYsMA.png"></b-image>
-      </b-carousel-item>      
-      <b-carousel-item>
-        <b-image class="image" src="https://d1l3jc4magixw.cloudfront.net/cases/2018/BR_2018_12/2018_BR_2018_12_hero_1.jpg"></b-image>
-      </b-carousel-item>            
-    </b-carousel>
-
+ <section>
+   <div class="columns">
+      <div class="column is-3">
+        <figure class="image is-300x300">
+    <img src="https://www.nestle.com.br/sites/g/files/pydnoa436/files/2021-10/chamyto-1-1.png">
+        </figure>
+      </div>
+      <div class="column is-6">
+        <article class="notification is-primary">
+         <p class="title">Chamyto 1+1</p>
+        </article>
+        <article class="notification is-primary">
+         <p class="subtitle">Aquele chamito com iogurte e bolinhas de chocolate top, pra criançada ficar maluca no intervalo</p>
+        </article>
+      </div>
+      <div class="column is-3">
+        <article class="notification is-primary">
+         <p class="title">5 bolsocoins</p>
+         <p>Quantidade:</p>
+        </article>
+        <b-field>
+         <b-numberinput v-model="number"></b-numberinput>
+        </b-field>
+        <b-button type="is-primary">Adicionar ao carrinho</b-button>
+      </div>
+    </div>
+   <div>
+    <article class="notification is-primary">
+     <p class="subtitle">120 ml de iogurte</p>
+     <p class="subtitle">56 un de bolinhas de chocolate</p>
+    </article>
+   </div>
+   <br>
+   <div>
+    <article class="notification is-primary">
+     <p class="subtitle">Comentários:</p>
+     <br>
+     <p class="subtitle">Clébinho: Uma delícia!</p>
+     <p class="subtitle">João: Muito gostoso!</p>
+    </article>
+   </div>
+   <br><br>
+   <h1 class="title">Produtos Relacionados:</h1>
     <div class="columns mt-5">
       <div class="column is-3">
         <figure class="image is-300x300">
@@ -32,7 +60,7 @@
         <article class="notification is-info">
           <p class="title">Iogurte 100g</p>
           <p class="subtitle">10 bolsocions</p>
-          <router-link :to="{ path: '/iogurte' }">Mais informações</router-link>
+          <router-link :to="{ path: '/chamyto1' }">Mais informações</router-link>
         </article>
       </div> 
       <div class="column is-3">
@@ -56,13 +84,5 @@
         </article>
       </div>     
     </div>
-
-    <div class="columns mt-4">
-      <div class="column">
-        <article class="notification is-primary has-text-centered">
-          <p class="title">Site oficial de venda de produtos da chamyto (O genio da chamyto daria uma surra no genio do habbibs)</p>
-        </article>
-      </div>
-    </div>    
-  </div>
+ </section>
 </template>

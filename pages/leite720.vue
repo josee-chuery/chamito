@@ -1,19 +1,46 @@
 <template>
-  <div>
-    
-    <!-- carousel com imagens -->
-    <b-carousel>
-      <b-carousel-item>
-        <b-image class="image" src="https://mir-s3-cdn-cf.behance.net/projects/404/b11cea51769163.Y3JvcCw2NzAsNTI0LDI5LDExMQ.png"></b-image>
-      </b-carousel-item>
-      <b-carousel-item>
-        <b-image class="image" src="https://mir-s3-cdn-cf.behance.net/projects/404/7f25d271954537.Y3JvcCwyODc2LDIyNTAsNTYsMA.png"></b-image>
-      </b-carousel-item>      
-      <b-carousel-item>
-        <b-image class="image" src="https://d1l3jc4magixw.cloudfront.net/cases/2018/BR_2018_12/2018_BR_2018_12_hero_1.jpg"></b-image>
-      </b-carousel-item>            
-    </b-carousel>
-
+ <section>
+   <div class="columns">
+      <div class="column is-3">
+        <figure class="image is-300x300">
+    <img src="https://www.nestle.com.br/sites/g/files/pydnoa436/files/2021-10/chamyto-1-1.png">
+        </figure>
+      </div>
+      <div class="column is-6">
+        <article class="notification is-primary">
+         <p class="title">Leite Fermentado 720 ml</p>
+        </article>
+        <article class="notification is-primary">
+         <p class="subtitle">Tipo yakult com 720 ml</p>
+        </article>
+      </div>
+      <div class="column is-3">
+        <article class="notification is-primary">
+         <p class="title">15 bolsocoins</p>
+         <p>Quantidade:</p>
+        </article>
+        <b-field>
+         <b-numberinput v-model="number"></b-numberinput>
+        </b-field>
+        <b-button type="is-primary">Adicionar ao carrinho</b-button>
+      </div>
+    </div>
+   <div>
+    <article class="notification is-primary">
+     <p class="subtitle">720 ml de leite fermentado</p>
+    </article>
+   </div>
+   <br>
+   <div>
+    <article class="notification is-primary">
+     <p class="subtitle">Comentários:</p>
+     <br>
+     <p class="subtitle">Clébinho: Grande e gostoso!</p>
+     <p class="subtitle">João: Me deu dor de barriga!</p>
+    </article>
+   </div>
+   <br><br>
+   <h1 class="title">Produtos Relacionados:</h1>
     <div class="columns mt-5">
       <div class="column is-3">
         <figure class="image is-300x300">
@@ -56,13 +83,5 @@
         </article>
       </div>     
     </div>
-
-    <div class="columns mt-4">
-      <div class="column">
-        <article class="notification is-primary has-text-centered">
-          <p class="title">Site oficial de venda de produtos da chamyto (O genio da chamyto daria uma surra no genio do habbibs)</p>
-        </article>
-      </div>
-    </div>    
-  </div>
+ </section>
 </template>
